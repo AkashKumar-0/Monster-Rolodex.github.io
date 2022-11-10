@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    to left,
+    rgba(7, 27, 82, 1) 0%,
+    rgba(0, 128, 128, 1) 100%
+  );
+  text-align: center;
+  color: #e4e5e6;
+}
+.card-list {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+input {
+  margin-bottom: 5rem;
+  padding: 1rem;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: inherit;
+  color: white;
+  font-family: cursive;
+}
+.card-container {
+  background-color: rgba(228, 230, 231, 0.3);
+  padding: 2rem 0;
+  color: #282c34;
+  margin: 2rem;
+  border-radius: 5%;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: all 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 5px 1px rgba(228, 230, 231, 0.3);
+}
+.app-title {
+  font-family: 'Island Moments', cursive;
+  color: rgba(29, 207, 219, 0.856);
+  margin-top: 3rem;
+  font-size: 8rem;
+}
